@@ -1,46 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
 body{
-  /* background-color: black; */
+  background-color: black;
+}
+*{
+  list-style: none;
 }
 .music {
   height: 250px;
-  padding: 100px;
+  padding: 20px;
   background-color: lightgrey;
   border-radius: 50%;
-  border: 30px solid black;
+  border: 10px solid black;
 }
 
-.player {
+#player {
   margin: 200px 30px;
+  color: lightgreen;
 }
-.sliderrr{
+.volume{
  background-color: lightgrey;
 }
-.sliderrr p{
+.volume p{
   padding-top: 200px;
-  color: blueviolet;
+  /* color: rgb(34, 122, 242); */
+  color: #96dbfa;
+}
+.volume {
+  margin: 100px;
+}
+.effects li{
+  color: #96dbfa;
+  display: inline-block;
+  padding: 0 10px;
+}
+.effects input {
+  background-color: #96dbfa;
 }
 /* .player {
   margin: 15px 0;

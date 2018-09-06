@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import music from './music.svg';
 import './App.css';
-// import Player from './Player';
+import Player from './Player';
 import PlayAudio from 'react-simple-audio-player'
 import Slider, { Range } from 'rc-slider';
 import 'rc-slider/assets/index.css';
@@ -16,12 +16,13 @@ class App extends Component {
     return (
       <div>
         {/* <div className="player"> */}
-          <PlayAudio className="player" url={'http://www.noiseaddicts.com/samples_1w72b820/4186.mp3'}/>    
-          <Slider className="sliderrr" vertical={true} defaultValue={100} onChange={this.changeVolume.bind(this)}>
+          <PlayAudio id="player" url={'http://www.noiseaddicts.com/samples_1w72b820/4186.mp3'}/>    
+          <Slider className="volume" vertical={true} defaultValue={100} onChange={this.changeVolume.bind(this)}>
             <p>Volume</p>
           </Slider>
         {/* <Player src="https://www.soundeffectsplus.com/uploads/prod_audio/39398746_airplane-fly-over-large-airliner-03.mp3"/> */}
           <img src={music} className="music"/>
+          <Player/>
         
       </div>
       
