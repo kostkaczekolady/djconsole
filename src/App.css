@@ -24,6 +24,8 @@ body{
   padding-top: 200px;
   /* color: rgb(34, 122, 242); */
   color: #96dbfa;
+  margin-left: -10px;
+  font-weight: 600;
 }
 .volume {
   margin: 100px;
@@ -35,6 +37,27 @@ body{
 }
 .effects input {
   background-color: #96dbfa;
+}
+.rc-slider-vertical {
+  left: -76px;
+  top: -97px;
+}
+.secondSection{
+  margin-top: 60px;
+  /* padding: 60px; */
+}
+.effects{
+  border: 2px solid #96dbfa;
+  /* background-color: black; */
+  color: white;
+  height: 50px;
+  width: 100px;
+  box-shadow: none;
+  border-radius: 20px;
+  color: black;
+}
+.useEffects{
+  background-color: white;
 }
 /* .player {
   margin: 15px 0;
