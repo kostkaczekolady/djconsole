@@ -55,9 +55,28 @@ body{
   box-shadow: none;
   border-radius: 20px;
   color: black;
+  font-weight: 700;
+  font-size: 20px;
+
 }
 .useEffects{
-  background-color: white;
+  background-color: #96dbfa;
+  /* color: white; */
+  font-weight: 600;
+}
+img {
+  -webkit-animation: cssAnimation 10s infinite linear;
+  -moz-animation: cssAnimation 10s infinite linear;
+  -o-animation: cssAnimation 10s infinite linear;
+}
+
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 /* .player {
   margin: 15px 0;
