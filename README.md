@@ -1,10 +1,9 @@
 # djconsole
-First aplication created on bootcamp Coders Lab.
+First aplication created on bootcamp Coders Lab in React.
 
-It will be virtual DJ console. 
-Now I'm 
+It will be virtual DJ console, which user can play music, change volume & speed track or add effect. I prepare some animation in this music project.
 
-Made in React and a Web Audio library (Pizzicato)
+Made with React and a Web Audio library (e.g Pizzicato)
 
 ## [djconsole demo]
 ...comming soon...
