@@ -5,5 +5,5 @@ It will be virtual DJ console, which user can play music, change volume & speed 
 
 Made with React and a Web Audio library (e.g Pizzicato)
 
-## [djconsole demo]
+
 ...comming soon...
